@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Mandali');
 
 .clear {
   clear: both;
@@ -41,4 +42,10 @@ header {
 }
 hr {
   clear: both
+}
+h1 {
+  font-family: 'Mandali', sans-serif;
+}
+h2 {
+  font-family: 'Mandali', sans-serif;
 }
