@@ -30,7 +30,18 @@
         <hr />
 
         <br class="clear"/>
-
-    <%= yield %>
+    <div class="container">    
+      <%= yield %>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <%= link_to "I want more!", "#", class: 'next-quote' %>
+          <div class="col-6 footer-blurb">Created by Elizabeth Hanson <br />
+          Want to make your own? <a href="http://thefirehoseproject.com">Click here!</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
