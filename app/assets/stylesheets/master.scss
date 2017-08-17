@@ -70,3 +70,24 @@ h2 {
 .about {
   font-family: 'ambleregular';
 }
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left
+  }
+}
+.modal {
+  font-family: 'ambleregular';
+}
+h2 span {
+  color: #dddddd;
+  font-family: 'ambleregular';
+  font-size: 28px;
+}
+h1 {
+  font-family: 'ambleregular';
+  font-weight:bold;
+  font-size:48px;
+}
+::selection {
+  background-color: #f84342;
+}
