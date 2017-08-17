@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+/* This line needs to be added */
 //= require popper
 //= require tether
 //= require bootstrap-sprockets
